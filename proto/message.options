@@ -1,0 +1,6 @@
+Header.src_id max_size:1
+Header.src_id fixed_length:true
+Header.dst_id max_size:1
+Header.dst_id fixed_length:true
+Header.msg_id max_size:2
+Header.msg_id fixed_length:true

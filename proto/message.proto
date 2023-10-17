@@ -1,0 +1,11 @@
+syntax="proto3";
+
+message Header {
+    bytes src_id = 1;
+    bytes dst_id = 2;
+    uint32 msg_id = 3;
+}
+
+message Msg {
+    Header header = 1;
+}
